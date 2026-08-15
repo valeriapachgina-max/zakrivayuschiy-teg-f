@@ -1,19 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-base: 'Inter';
-    --font-stress: 'PressStart2P';
-    --font-base-weight-info: "wght" 410;
-    --font-base-weight-title: "wght" 715;    
-    --bg-image: 
-    repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent  4px),
-    repeating-linear-gradient(to top, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent  4px),
+  --font-base: "Inter";
+  --font-stress: "PressStart2P";
+  --font-base-weight-info: "wght" 410;
+  --font-base-weight-title: "wght" 715;
+  --bg-image:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to top,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
     linear-gradient(#e7e7e7, #1a1a1a);
-    --block-weight: clamp(375px, 100%, 700px);
-    --bg-color: white;
-    --border: 2px solid #000000;
-    --label-text-color: #d3d3d3;
-    --bg-color-dialog: rgba(0, 0, 0, 0.75);
-    --border-color: #000000;
-    --color-for-button-animation:#FFFFFF;
-    --sparks-color:#FF0000;
+  --block-weight: clamp(375px, 100%, 700px);
+  --bg-color: white;
+  --border: 2px solid #000000;
+  --label-text-color: #d3d3d3;
+  --bg-color-dialog: rgba(0, 0, 0, 0.75);
+  --border-color: #000000;
+  --color-for-button-animation: #ffffff;
+  --sparks-color: #ff0000;
 }
